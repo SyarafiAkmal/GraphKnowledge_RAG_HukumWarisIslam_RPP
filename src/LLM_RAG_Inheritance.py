@@ -136,8 +136,7 @@ def main_pipeline():
 
     db_driver = load_graph()
 
-    # Yes this is a real API key, but for demonstration purposes only, will delete it afterwards
-    client = OpenAI(api_key="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")
+    client = OpenAI(api_key="use-your-openai-api-key-here")
 
     user_input = input("Question: ")
 
