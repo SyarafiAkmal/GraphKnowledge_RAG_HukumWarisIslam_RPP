@@ -136,7 +136,7 @@ def main_pipeline():
 
     db_driver = load_graph()
 
-    client = OpenAI(api_key="use-your-openai-api-key-here")
+    client = OpenAI(api_key="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")
 
     user_input = input("Question: ")
 
@@ -173,7 +173,6 @@ def main_pipeline():
     )
 
     print(response.choices[0].message.content)
-
 
 
 if __name__ == "__main__":
